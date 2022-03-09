@@ -26,10 +26,22 @@
         <p> <strong>Try it free 7 days</strong>  then $20/mo. thereafter</p>
       </div>
       <div class="grid__right__form">
-        <input type="text" class="input_name" placeholder="First Name ">
-        <input type="text" class="input_lastName" placeholder="Last Name "> 
-        <input type="email" class="input_email" placeholder="Email Address">
-        <input type="password" class="input_password" placeholder="Password">
+        <div class="input_box">
+          <input type="text" class="input_name" placeholder="First Name "> <div class="error_icon error_icon_1"></div>
+        </div>
+        <p class="validation-error">First Name cannot be empty</p>
+        <div class="input_box">
+          <input type="text" class="input_lastName" placeholder="Last Name "> <div class="error_icon error_icon_2"></div>
+        </div>
+        <p class="validation-error">Last Name cannot be empty</p> 
+        <div class="input_box">
+          <input type="email" class="input_email" placeholder="Email Address"> <div class="error_icon error_icon_3"></div>
+        </div>
+        <p class="validation-error">Looks like it is not an email</p>
+        <div class="input_box">
+          <input type="password" class="input_password" placeholder="Password"> <div class="error_icon error_icon_4"></div>
+        </div>
+        <p class="validation-error">Password cannot be empty</p>
         <button class="button_submit">Claim your free trial </button>
         <p class="license_agreement">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a> </p>
       </div>
